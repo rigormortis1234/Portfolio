@@ -1,2 +1,2 @@
 # Portfolio
-this is a profolio
+this is a portfolio
