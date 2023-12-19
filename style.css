@@ -3,6 +3,10 @@ h1,p{
 }
 
 
+h1{
+    font-size:60px;
+}
+
 .topnav{
     font-size: 40px;
     display: flex;
