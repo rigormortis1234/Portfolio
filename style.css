@@ -21,20 +21,39 @@ p{
     font-family:"Courier New";
     color: limegreen;
 }
-.verticalnav{
+/*.verticalnav{
     font-family:"Courier New";
     color: limegreen;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     font-size: 40px;
-    /* I'm trying to get it evenly to the Misc. bar but I have entirely NO idea what I'm doing */
+    I'm trying to get it evenly to the Misc. bar but I have entirely NO idea what I'm doing
 }
 
 .item-5{
     border-style:solid;
 }
 
+.item-6{
+    border-style:solid;
+}
+
+.item-7{
+    border-style:solid;
+}
+
+.item-8{
+    border-style:solid;
+}
+
+.item-9{
+    border-style:solid;
+}
+
+I tried adding a misc something similar to my Figma so I decided to convert all of this into a comment command, I should be able to find a solution but I got some other things to focus on so I'll come back to this later.
+
+*/
 .resume{
     font-size: 25px;
     color: limegreen;
