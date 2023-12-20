@@ -13,14 +13,38 @@ p{
     font-size:40px
 }
 
-.horizontalnav{
+body{
+
+}
+
+.horizontalnav ul{
     font-size: 40px;
+    list-style-type: none;
+    background-color: #007200;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    border-style:solid;
     font-family:"Courier New";
-    color: limegreen;
 }
+
+.horizontalnav a{
+    background-color: #007200;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    list-style-type:none;
+}
+
+.horizontalnav a:hover{
+    background-color: #004f00;
+}
+
+.navbar li{
+    float: left;
+}
+
 /*.verticalnav{
     font-family:"Courier New";
     color: limegreen;
