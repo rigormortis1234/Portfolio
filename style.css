@@ -27,7 +27,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 20px;
+    font-size: 40px;
     /* I'm trying to get it evenly to the Misc. bar but I have entirely NO idea what I'm doing */
 }
 
