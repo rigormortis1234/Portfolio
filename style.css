@@ -1,54 +1,78 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: black;
+}
+.sonic-section{
+    background: #1f00ad;
+}
+.sonic-section2{
+    background: black;
+}
+.sonic-background{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204134288174616606/Sonic1BetaMarbleZone_2.png?ex=65d3a072&is=65c12b72&hm=7f40fb9754c02c5534e11f25873cde9c2ba721ea9328db6c6ae022a82b0355cc&=&format=webp&quality=lossless&width=1614&height=908") no-repeat 50% 50%;
+    background-size: cover;
+    top:20%;
+}
+.sonic-ground{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204134763196325888/Sonic1BetaMarbleZone_3.png?ex=65d3a0e3&is=65c12be3&hm=d3940d41d70d42bd8e63df33dd8477b2e60e27cb6a23c36007ae43e006ad4b54&=&format=webp&quality=lossless&width=1614&height=908") no-repeat 50% 50%;
+    background-size: cover;
+    top:20%;
+}
+.text{
+    position: absolute;
+    width: 100%;
+    height:100vh;
+    top:32%;
+}
+.freddy-mask {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1200090332667330660/ok.png?ex=65c4ea37&is=65b27537&hm=99b39b9a5e91b17e2f4615fed72a773ad042d35557c71a945bd7d0fe81c4145e&=&format=webp&quality=lossless&width=1280&height=960") no-repeat 50% 50%;
+    background-size: cover;
+    top: 20%
+}
+content{
+    width:80%;
+    margin: 0 auto;
+    padding: 80px 0;
+    font-family: "Franklin Gothic Heavy";
+}
+.whitespace{
+    width:100%;
+    height:100vh;
+}
+h1{
+    font-size:42px;
+    font-family: "Franklin Gothic Heavy";
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+p{
+    line-height: 40px;
+    text-align: justify;
+    color: white;
+}
 h1,p{
     font-family:"Courier New";
     color: limegreen;
 }
-
-
 h1{
     font-size:60px;
 }
-
 p{
     font-size:40px
 }
-
-.horizontalnav ul{
-    font-size: 40px;
-    list-style-type: none;
-    background-color: #007200;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-    font-family:"Courier New";
-}
-
-.horizontalnav a{
-    background-color: #007200;
-    padding: 15px;
-    display: block;
-    text-align: center;
-    list-style-type:none;
-    color:white;
-    text-decoration: none;
-}
-
-.horizontalnav a:hover{
-    background-color: #004f00;
-}
-
-.navbar li{
-    float: left;
-}
-
-
-.resume{
-    font-size: 25px;
-    color: limegreen;
-    font-family:"Courier New"
-}
-
 .theend{
     font-family:"Courier New";
     color: limegreen;
