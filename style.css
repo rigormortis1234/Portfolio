@@ -3,45 +3,80 @@ html, body{
     padding: 0;
     width: 100%;
     height: 100%;
-    background: black;
 }
 .sonic-section{
-    background: #1f00ad;
+    background:#1f00ad
 }
 .sonic-section2{
     background: black;
 }
-.sonic-background{
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background: url("https://media.discordapp.net/attachments/593539063412293633/1204134288174616606/Sonic1BetaMarbleZone_2.png?ex=65d3a072&is=65c12b72&hm=7f40fb9754c02c5534e11f25873cde9c2ba721ea9328db6c6ae022a82b0355cc&=&format=webp&quality=lossless&width=1614&height=908") no-repeat 50% 50%;
-    background-size: cover;
-    top:20%;
-}
 .sonic-ground{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204134288174616606/Sonic1BetaMarbleZone_2.png?ex=65d3a072&is=65c12b72&hm=7f40fb9754c02c5534e11f25873cde9c2ba721ea9328db6c6ae022a82b0355cc&=&format=webp&quality=lossless&width=2632&height=1480") no-repeat 50%, 50%;
+    background-size: cover;
+    top: 10%;
+}
+.sonic-piller{
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: url("https://media.discordapp.net/attachments/593539063412293633/1204134763196325888/Sonic1BetaMarbleZone_3.png?ex=65d3a0e3&is=65c12be3&hm=d3940d41d70d42bd8e63df33dd8477b2e60e27cb6a23c36007ae43e006ad4b54&=&format=webp&quality=lossless&width=1614&height=908") no-repeat 50% 50%;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1205145919599939625/Sonic1BetaMarbleZone_8_1.png?ex=65d74e99&is=65c4d999&hm=6bfce137ba4c44ca85a33047737a4f30d5c148a968260850c0b4db5bd1670bac&=&format=webp&quality=lossless&width=2378&height=1338");
     background-size: cover;
-    top:20%;
+    top:10%;
 }
 .text{
     position: absolute;
     width: 100%;
     height:100vh;
-    top:32%;
+    top:12%;
 }
-.freddy-mask {
+.sonic-sky {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: url("https://media.discordapp.net/attachments/593539063412293633/1200090332667330660/ok.png?ex=65c4ea37&is=65b27537&hm=99b39b9a5e91b17e2f4615fed72a773ad042d35557c71a945bd7d0fe81c4145e&=&format=webp&quality=lossless&width=1280&height=960") no-repeat 50% 50%;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204860410151309352/Sonic1BetaMarbleZone_6_11.png?ex=65d644b3&is=65c3cfb3&hm=ed2c23ebd3540352158e026f4b07c61e95639058bdd1bf5ea05ccf8e6b98aa44&=&format=webp&quality=lossless&width=2378&height=1338");
+    background-size: cover;
+    top: 10%
+}
+.sonic-mountain {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204457026864807997/Sonic1BetaMarbleZone_7.png?ex=65d4cd04&is=65c25804&hm=10d334c637bdf66699b1690111b4756165a02ed3fcd2e898fb206d657c9d8f1e&=&format=webp&quality=lossless&width=1614&height=908");
+    background-size: cover;
+    top: 10%;
+}
+.sonic-text {
+    font-family: "Franklin Gothic Heavy";
+    color: black;
+}
+.sonic-header{
+    color: black;
+    font-size: 70px;
+    font-family: "Franklin Gothic Heavy";
+    font-weight: bold;
+}
+.sonic-background{
+    position: absolute;
+    width:100%;
+    height:100vh;
+    background: url("https://media.discordapp.net/attachments/593539063412293633/1204771510837973023/Sonic1BetaMarbleZone_6_3.png?ex=65d5f1e7&is=65c37ce7&hm=8016bac2cc96307c20fee646102e9265460e290887672b6c5a386eeab09cd143&=&format=webp&quality=lossless&width=2378&height=1338");
+    top:4%;
+}
+.sonic-nav{
+    background:#1f00ad;
+}
+/* .placeholder {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: url("") no-repeat 50% 50%;
     background-size: cover;
     top: 20%
-}
-content{
+} */
+.content{
     width:80%;
     margin: 0 auto;
     padding: 80px 0;
@@ -50,6 +85,10 @@ content{
 .whitespace{
     width:100%;
     height:100vh;
+    background:#9376af;
+}
+.sonic-section2{
+    background:#9376af;
 }
 h1{
     font-size:42px;
