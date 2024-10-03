@@ -124,3 +124,20 @@ p{
     color: limegreen;
     font-size: 20px;
 }
+body.superduperclass{
+    background: black;
+}
+h1.superduperclass{
+    font-size: 60px;
+    text-align: center;
+}
+h2.superduperclass{
+    font-size: 40px
+}
+p.superduperclass{
+    font-size: 30px
+}
+.superduperclass{
+    font-family: "Franklin Gothic Heavy";
+    color: white;
+}
