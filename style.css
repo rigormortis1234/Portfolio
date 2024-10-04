@@ -139,6 +139,11 @@ p.superduperclass{
 }
 .superduperclass{
     font-family: "Franklin Gothic Heavy";
-    color: white;
+    color: black;
+    background-color: White;
     margin: 40px;
+}
+#supercopyright{
+    font-size: 20px;
+    color: white;
 }
